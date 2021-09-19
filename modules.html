@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,800&display=swap" rel="stylesheet">
+        <title>Technoware | Modules</title>
+    </head>
+    <body class="modulebody">
+        <div class="modulebanner">
+            <div class="block">
+                <div class="banner">
+                    <h1>Technoware | Modules</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordions">
+            <button class="accordion">Combat</button>
+            <div class="panel">
+                <div class="accordion-content">
+                    <ul class="modulelistreal">
+                        <b>Auto Armour</b>
+                        <br>Automatically equips armour pieces in your inventory.</br>
+                    </ul>
+                    <ul class="modulelistreal">
+                        <b>Crystal Aura</b>
+                        <br>Automatically places and destroys crystals.</br>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="accordion">Exploit</button>
+            <div class="panel">
+                
+            </div>
+
+            <button class="accordion">Misc</button>
+            <div class="panel">
+                
+            </div>
+            <button class="accordion">Movement</button>
+            <div class="panel">
+                
+            </div>
+            <button class="accordion">Render</button>
+            <div class="panel">
+                
+            </div>
+        </div>
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
+    </body>
+</html>

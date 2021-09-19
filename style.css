@@ -1,0 +1,344 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    font-family: raleway
+}
+
+.header-block {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+}
+
+.overlay {
+    background-image: url("Assets/EndCrystalRender.png");
+    background-color: #cccccc;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+}
+
+#downloadButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#302579;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#downloadButton:hover {
+	background-color:#f6f6f6;
+}
+
+#moreinfoButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#302579;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#moreinfoButton:hover {
+	background-color:#f6f6f6;
+}
+
+.modulelist {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:white;
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#302579;
+    font-family: Arial;
+	font-size:16px;
+	font-weight: normal;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.modulelist:hover {
+	background:white;
+	background-color:#f6f6f6;
+}
+
+.facts {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.fact {
+    max-width: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    padding-bottom: 35px;
+}
+
+.Animation {
+    display: inline-block;
+    max-width: 100px;
+}
+
+.sloganImg {
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+.block {
+    width: 80%;
+    max-width: 1280px;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 100vw 100vh;
+    background-attachment: scroll;
+    color: #fff;
+    height: 100%;
+}
+
+.anarchy {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-image: url(Assets/AnarchySpawn.jpg);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.credits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:transparent;
+    border-radius: 9px;
+    color:black;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.creditwrap {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.downloadsection {
+    padding-bottom: 100px
+}
+
+.dlinfo {
+    text-align: center;
+}
+
+.inner {
+    padding: 22px;
+    padding-left: 77px;
+    color: #fff
+}
+
+.dl:hover {
+    background-color: #1f4291
+}
+
+.dl:active {
+    transform: scale(.98)
+}
+
+.dl .btntitle {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.dl .btndesc {
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .7
+}
+
+.dl {
+    background-image: url(Assets/dl.svg);
+    background-repeat: no-repeat;
+    background-position: 28px 29px;
+    background-size: 24px 24px;
+    background-color: #104cd6;
+    outline: none;
+    color: #fff;
+    width: 330px;
+    border-radius: 10px;
+    transition: transform .3s ease;
+    margin: auto;
+    text-align: center;
+    transition: all .2s ease
+}
+
+#forgedl:link {
+    color:white;
+}
+
+#forgedl:visited {
+    color:white;
+}
+
+#forgedl:hover {
+    color:white;
+}
+
+#forgedl:active {
+    color:white;
+}
+
+.goodmodule {
+    text-align: center;
+    outline:none;
+    padding-top: 70px;
+}
+
+.modulebanner {
+    width: 99%;
+    height: 160px;
+    background-position: 0 -150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.modulebody {
+    background-image: url(Assets/EndCrystalRender.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.accordion {
+    text-align: center;
+    background-color: #390380;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border-radius: 1px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17px;
+    transition: 0.4s;
+}
+
+.accordions {
+    padding-left: 33%;
+}
+  
+.active, .accordion:hover {
+    background-color: rgb(104, 56, 182);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: center;
+}
+
+li {
+    display: list-item;
+    text-align: left;
+    font-size: 19px;
+    color: white;
+    font-weight: normal;
+}
+
+.modulelistreal {
+    text-align: left;
+    color: white;
+}

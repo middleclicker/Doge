@@ -1,2 +1,2 @@
-# Technoware
-Repository for Technoware's website.
+# Nezumi
+Repository for Nezumi's website.

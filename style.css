@@ -296,6 +296,7 @@ background: #555;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 0;
+    min-height: 100vh;
 }
 
 .accordion {
@@ -314,6 +315,7 @@ background: #555;
 
 .accordions {
     padding-left: 33%;
+    overflow: hidden;
 }
   
 .active, .accordion:hover {
@@ -322,11 +324,12 @@ background: #555;
 
 .panel {
     padding: 0 18px;
-    background-color: transparent;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     text-align: center;
+    backdrop-filter: blur(35px);
+    width: 31.65vw;
 }
 
 li {
